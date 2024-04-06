@@ -4,6 +4,8 @@ import './index.scss';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import ShopcontextProvider from './Context/ShopContext';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

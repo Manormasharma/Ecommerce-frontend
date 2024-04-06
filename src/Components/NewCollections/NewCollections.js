@@ -4,10 +4,14 @@ import Item from '../Item/Item'
 
 const NewCollections = () => {
   return (
-    <div className='section new-collection my-5'>
-        <h1>New collection</h1>
-        <hr/>
-        <div className='section-item'>
+      <div className='container section new-collection my-5'>
+        <div className='row'>
+          <div className='col-12'>
+            <h1>New collection</h1>
+            <hr/>
+          </div>
+        </div>
+        <div className='row py-5'>
             {new_collection.map((item,i)=>{
                 return <Item
                 image = {item.image}
@@ -18,7 +22,8 @@ const NewCollections = () => {
             />
             })}
         </div>
-    </div>
+      </div>
+    
   )
 }
 
