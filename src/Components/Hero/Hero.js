@@ -1,26 +1,23 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+
 
 const Hero = () => {
   return (
-    <div className='hero'>
-        <div className='hero-left'>
-            <h3>New  Arrivals Only</h3>
-            <div>
-                <p>new</p>
-                <div className="hand-icon">
-                    <p>new</p>
-                    {/* <img src={} /> */}
+    <div className='hero-bg'>
+        <div className='hero container'>
+            <div className='row items-center h-[650px]'>
+                <div className='col-md-6'>
+                    <h3 className='mb-0 text-white'>New  Arrivals Only</h3>
+                    <div>
+                        <p className='text-white hero-line'>UPGRADE YOUR WORK STYLE</p>
+                        <p className='text-white bold'>You can get everything you want beyond your limits</p>
+                    </div>
                 </div>
-                <p>collections</p>
-                <p>for everyone</p>
-            </div>
-            <div className='hero-latest-btn'>
-                <div>Latest Collection</div>
             </div>
         </div>
-        <div className='hero-right'></div>
-    
     </div>
+    
   )
 }
 

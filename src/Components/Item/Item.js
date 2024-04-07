@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Item = (props) => {
   return (
-    <div className='col-6 col-md-4 col-lg-3 mb-4'>
+    <div className='col-6 col-md-4 col-lg-3 mb-4 section-item '>
       <Link to={`/product/${props.id}`}>
         <div className='item'>
-            <img src={props.image}/>
-            <div className='item_details'>
+            <img src={props.image} className='rounded'/>
+            <div className='item_details px-1'>
               <p>{props.name}</p>
               <div className='item-price d-flex'>
                   <div className='item-price-new'>&#8377;{props.new_price}</div>

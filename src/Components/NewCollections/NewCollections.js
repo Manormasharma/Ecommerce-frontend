@@ -4,7 +4,7 @@ import Item from '../Item/Item'
 
 const NewCollections = () => {
   return (
-      <div className='container section new-collection my-5'>
+      <div className='section container section new-collection my-5'>
         <div className='row'>
           <div className='col-12'>
             <h1>New collection</h1>

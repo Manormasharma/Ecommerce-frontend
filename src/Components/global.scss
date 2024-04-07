@@ -1,7 +1,26 @@
+.hero-bg{
+    background-image: url("./Assets/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    background-position: bottom;
+}
+.hero{
+
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .hero-line{
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 1.4;
+    }
+    .custom{
+        color: orange;
+    }
+}
 .section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     h1{
         color: #171717;
         font-size: 50px;
@@ -15,30 +34,33 @@
         background: #252525;
     }
     .section-item{
-        // margin-top: 50px;
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: center;
-        gap: 20px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-top: 50px;
-        gap: 30px;
         .item{
-            width: 340px;
-            // margin: 1%;
-            // display: flex;
-            // flex-direction: column;
-            
-            
+            a{
+                color: #373737;
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none !important;
+                p{
+                    color: #373737;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin:  6px 0px;
+                    text-align: left;
+                    text-decoration: none !important;
+                }
+            }
             &:hover{
                 img{
                     opacity: 0.8;
                 }
             }
             p{
+                color: #373737;
+                font-size: 18px;
+                font-weight: 600;
                 margin:  6px 0px;
                 text-align: left;
+                text-decoration: none;
             }
             .item-price{
                 display: flex;
@@ -59,4 +81,7 @@
         }
     }
     
+}
+a{
+    text-decoration: none !important;
 }
