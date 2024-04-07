@@ -4,7 +4,7 @@ const ProductDisplay = (props) => {
     const {product} = props
   return (
     <div class="py-8">
-        <div class="max-w-6xl">
+        <div class="max-w-6xlS">
             <div class="flex flex-col md:flex-row">
                 <div class=" px-4">
                     <div class="rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">

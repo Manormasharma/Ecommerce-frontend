@@ -24,14 +24,17 @@
     h1{
         color: #171717;
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 900;
         text-transform: uppercase;
+        .custom{
+            color: #b90000;
+        }
     }
     hr{
-        width: 200px;
+        width: 150px;
         height: 6px;
         border-radius: 10px;
-        background: #252525;
+        background: #b90000;
     }
     .section-item{
         .item{

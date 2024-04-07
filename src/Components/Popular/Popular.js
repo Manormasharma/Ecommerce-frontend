@@ -7,8 +7,7 @@ const Popular = () => {
     <div className='container section new-collection my-5'>
       <div className='row'>
         <div className='col-12'>
-          <h1>Popular in Women</h1>
-          <hr/>
+          <h1>Popular in <span className='custom'>Women</span></h1>
         </div>
       </div>
       <div className='row py-5'>

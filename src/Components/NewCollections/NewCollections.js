@@ -7,8 +7,7 @@ const NewCollections = () => {
       <div className='section container section new-collection my-5'>
         <div className='row'>
           <div className='col-12'>
-            <h1>New collection</h1>
-            <hr/>
+            <h1>New <span className='custom'>collection</span></h1>
           </div>
         </div>
         <div className='row py-5'>
